@@ -1,0 +1,6 @@
+com\mycompany\payaraapiv1\CorsFilter.class
+com\mycompany\payaraapiv1\FirebaseInitializer.class
+com\mycompany\payaraapiv1\JakartaRestConfiguration.class
+com\mycompany\payaraapiv1\resources\JakartaEE10Resource.class
+com\mycompany\payaraapiv1\resources\CursoResource.class
+com\mycompany\payaraapiv1\resources\UsuarioResource.class
