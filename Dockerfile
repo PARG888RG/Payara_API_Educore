@@ -5,8 +5,8 @@ COPY pom.xml .
 COPY src ./src
 RUN mvn clean package -DskipTests
 
-# Fase 2: Servidor Apache TomEE (Plume) compatible con Jakarta EE 10 y Java 21
-FROM tomee:10.0.0-M1-plume-jdk21
+# Fase 2: Servidor Apache TomEE oficial (Estrategia de etiqueta corregida)
+FROM tomee:10.0.0-M1-jre21-plume
 
 # Eliminar la app por defecto de TomEE y copiar la tuya como ROOT
 RUN rm -rf /usr/local/tomee/webapps/ROOT

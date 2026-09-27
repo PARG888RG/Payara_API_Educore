@@ -1,0 +1,14 @@
+# Ignorar los binarios compilados de Maven
+target/
+
+# Ignorar archivos de configuración local de NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
